@@ -1,0 +1,110 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+:root{
+    --colorPrimario : #6A9C89;
+    --colorSecundario : #C4DAD2 ;
+    --colorTercer : #E9EFEC;
+}
+a:visited{
+    color: #4CAF50;
+}
+a:hover{
+    color: #ff6600;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+}
+.header{
+    display: flex ;
+    background: var(--colorPrimario);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.img{
+    height: 3rem;
+    
+}
+.title{
+    color: #ff4900;
+    font-size: 2rem;
+}
+.content{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: var(--colorTercer);
+    height: 100%;
+
+}
+.nav{
+    background-color:var(--colorSecundario) ;
+    width: 16rem;
+    margin: 1rem;
+    padding: .5rem;
+}
+.title-nav{
+    font-size: 1.5rem;
+}
+.link{
+    font-weight: bold;
+    text-decoration: none;
+    color: #001bff;
+}
+.main{
+    flex: 1;
+    margin: 1rem;
+    
+}
+.parrafo1{
+    color: #0093FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parrafo2{
+    font-size: .75rem;
+    color: #c500ff;
+    font-family: "Nerko One", cursive;
+}
+.tabla{
+    width: 100%;
+}
+.encabezado{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+}
+.fila-impar{
+    background-color: #bec1c3;
+    color: black;
+    font-size: 1.5rem;
+}
+.fila-par{
+    background-color: #045795;
+    color: white;
+    font-size: 1.5rem;
+}
+.footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+
+}
+.footer-item{
+    margin: 1rem;
+    background-color: var(--colorPrimario);
+    width: 10rem;
+    height: 4rem;
+}
