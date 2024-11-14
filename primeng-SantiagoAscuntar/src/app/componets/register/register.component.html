@@ -1,0 +1,51 @@
+<form >
+    <div class="card flex justify-content-center">
+        <p-card header="Register" card [style]= "{width:'360px'}" >
+            
+            <p>FullName</p>
+           
+            <div class="field">
+                <input type="text"
+                pInputTetxt
+                class="w-full"
+                placeholder="Type your name"
+                />
+            </div>
+            <p>Email</p>
+           
+            <div class="field">
+                <input type="text"
+                pInputTetxt
+                formControlName="Usuario"
+                class="w-full"
+                name="usuario"
+                placeholder="Type your email"
+                />
+            </div>
+
+            <p>Password</p>
+
+            <div class="field">
+                <input type="text"
+                pInputTetxt
+                formControlName="password"
+                class="w-full"
+                name="password"
+                placeholder="Type your password"
+                />
+            </div>
+            <p>Confirm Password</p>
+
+            <div class="field">
+                <input type="text"
+                pInputTetxt
+                formControlName="password"
+                class="w-full"
+                name="password"
+                placeholder="Confirm your password"
+                />
+            </div>
+            <p-button like="Like" iconPos="right" >Register</p-button>
+        </p-card>
+    </div>    
+</form>
