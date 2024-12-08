@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { InformationPersonalComponent } from './info-per/info-per.component';
+import { InfoTecnicaComponent } from "./info-tecnica/info-tecnica.component";
+import { InfoPagComponent } from './info-pag/info-pag.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [ InfoPagComponent,InfoTecnicaComponent, InformationPersonalComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'vacaiones';

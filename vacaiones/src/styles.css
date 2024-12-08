@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+body {
+    background-image: url('D:/RepositorioCGrafica/SantiagoAscuntar220034165/fondo.jpg'); 
+    background-color: aliceblue;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    margin: 0; 
+    height: 100vh; 
+  }
+  

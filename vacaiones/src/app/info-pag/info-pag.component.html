@@ -1,0 +1,96 @@
+<form >
+    <div style="display: grid; justify-content: center; height: 100vh; padding: 100px;">
+  
+        <p class="text-xl">Fecha de inicio</p>
+        <small class="opacity-70"
+          >Ingresa la fecha en la que iniciaras tu viaje</small
+        >
+        <div class="field" style="position: relative; width: 840px" >
+          <i
+            class="pi pi-calendar-plus"
+            style="
+              position: absolute;
+              left: 10px;
+              top: 50%;
+              transform: translateY(-50%);
+              padding: 10px;
+              pointer-events: none;
+              z-index: 10;
+            "
+          ></i>
+          <input
+            pInputText
+            type="text"
+            style="
+              font-size: 1.2em;
+              padding: 15px 15px 15px 40px;
+              width: 100%;
+              background-color: rgba(255, 255, 255, 0.4);
+              position: relative;
+              z-index: 1;
+            "
+          />
+        </div>
+    
+        <p class="text-xl">Fecha de finalización</p>
+        <small class="opacity-70"
+          >Ingresa la fecha en la que finalizaras tu viaje</small
+        >
+        <div class="field" style="position: relative; width: 840px">
+          <i
+            class="pi pi-calendar-times"
+            style="
+              position: absolute;
+              left: 10px;
+              top: 50%;
+              transform: translateY(-50%);
+              padding: 10px;
+              pointer-events: none;
+              z-index: 10;
+            "
+          ></i>
+          <input
+            pInputText
+            type="text"
+            style="
+              font-size: 1.2em;
+              padding: 15px 15px 15px 40px;
+              width: 100%;
+              background-color: rgba(255, 255, 255, 0.4);
+              position: relative;
+              z-index: 1;
+            "
+          />
+        </div>
+    
+        <p class="text-xl">Descripción</p>
+        <small class="opacity-70">Ingresa detalles de tu viaje</small>
+        <div class="field" style="position: relative; width: 840px">
+          <i
+            class="pi pi-align-left"
+            style="
+              position: absolute;
+              left: 10px;
+              top: 50%;
+              transform: translateY(-50%);
+              padding: 10px;
+              pointer-events: none;
+              z-index: 10;
+            "
+          ></i>
+          <textarea
+            pInputTextarea
+            style="
+              font-size: 1.2em;
+              padding: 15px 15px 15px 40px;
+              width: 100%;
+              height: 10rem;
+              background-color: rgba(255, 255, 255, 0.4);
+              position: relative;
+              z-index: 1;
+            "
+          ></textarea>
+        </div>
+    </div>
+</form>
+
